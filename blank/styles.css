@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Sora:wght@700&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Sora', sans-serif;
+}
+
+.navbar{
+    display: flex;
+}
+
+.acc a{
+    text-decoration: none;
+    color:#f9f9f9; 
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+
+.acc a:hover{
+    background-color: #a5b106;
+    color:#fff;
+    transform: scale(1.1); 
+}
+.logo{
+    display: flex;
+    margin-left: 100px;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center; 
+}
+
+.logo img{
+    width: 40px; 
+    height: 50px; 
+}
+.logo h1{
+    margin-left: 10px;
+}
+
+.menu{
+    display: flex;
+    margin-left:10px;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    left: 32%;
+    top:6%
+}
+
+.menu-item{
+    margin-left:60px;
+    font-weight: lighter;
+    font-size: medium;
+    text-decoration: none;
+    color: black;
+    opacity: 70%;
+}
+.menu-item:hover {
+    color: black;
+    opacity: 100%;
+}
+
+
+.acc{
+    position: absolute;
+    right: 10%;
+    top:6%
+}
+
+.acc a{
+    color:black;
+    text-decoration: none;
+}
+
+.acc a:hover{
+    opacity:70%;
+}
+
+.content {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-size: xx-large;
+}
+
+.content h3,
+.content h1 {
+    margin: 0;
+}
+
+.img {
+
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 500px;
+    /* Optional: Add additional styles for the container */
+}
+
+.img img {
+    max-width: 100%;
+    max-height: 100%;
+    /* Optional: Add additional styles for the image */
+}
+
+.footer{
+    position: absolute;
+    top:89%;
+    left:48%;
+    transform: translate(-50%, -50%);
+}
+.footer h4{
+    margin-left:100px;
+}
+.sponsors{
+    display: flex;
+    justify-content: center;
+}
+.sponsor-logo{
+    margin-left: 20px;
+}
