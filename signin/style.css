@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    background-position: bottom;
+    background-size: center;
+    position: relative;
+}
+.catalog{
+    width: 53%;
+    display: flex;
+
+}
+.catalog img{
+    width: 100%;
+    height: 100%;
+}
+.box{
+    position: absolute;
+    width: 40%;
+    top: 13%;
+    right: 5%;
+}
+
+.formbox{
+    position: absolute;
+    display: flex;
+    width: 65%;
+    height: 85%;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    text-align: center;
+}
+
+.formbox h1{
+    font-size: 2em;
+    margin-bottom: 60px;
+    color: #3c4035;
+    position: relative;
+}
+
+.formbox h1::after{
+    content: '';
+    width: 30px;
+    height: 4px;
+    border-radius: 3px;
+    background: #3c4035;
+    position: absolute;
+    bottom: -12px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.input-group{
+    height: 280px;
+}
+
+
+.input-field{
+    background: #eaeaea;
+    border-radius: 3px;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+
+
+input{
+    width:100%;
+    background:transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 15px;
+}
+
+.input-field i {
+    margin-left:15px;
+    color:#999;
+}
+
+.signin{
+    text-align: right;
+    font-size: 13px;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+}
+
+.signin p{
+    margin-right: 3px;
+}
+
+.signin button{
+    background: #fff;
+    border:0;
+}
+
+.signin button:hover{
+    color: #787878;
+}
+
+.continue{
+    font-size: 15px;
+    margin-top: 10px;
+    color: #bcbcbc;
+}
+
+.social-group{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-field{
+    margin: 0 10px;
+    border: #3c4035;
+    width: 50%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    column-gap: 0.5rem;
+    justify-content: center;
+}
+
+
+
+.social-field a {
+    text-decoration: none;
+    color: #3c4035;
+}
+
+.social-group p {
+    font-size: x-larger;
+    color: #3c4035;
+}
+
+.btn-field{
+    width: 100%;
+    justify-content: space-between;
+}
+
+.btn-field button{
+    margin-top: 10px;
+    background:#3c4035;
+    color: #fff;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+    transition: background 1s;
+}
+
+.alert{
+    display: flex;
+    margin-left: 10px;
+    font-size: 13px;
+    color: rgb(194, 4, 4);
+}
+
+#nameField{
+    max-height: 0;
+}

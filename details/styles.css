@@ -24,6 +24,35 @@
     color:#fff;
     transform: scale(1.1); 
 }
+
+.logout a{
+    text-decoration: none;
+    color:#f9f9f9; 
+    padding: 6px 15px;
+    border-radius: 20px;
+    margin: 0 10px;
+    font-weight: 600;
+    transition: all .2s ease-in-out;
+}
+
+.logout a:hover{
+    background-color: #a5b106;
+    color:#fff;
+    transform: scale(1.1); 
+}
+
+.logout{
+    position: absolute;
+    right: 10%;
+    top:6%
+}
+
+.logout a{
+    color:black;
+    text-decoration: none;
+}
+/* LOGOUT */
+
 .logo{
     display: flex;
     margin-left: 100px;
